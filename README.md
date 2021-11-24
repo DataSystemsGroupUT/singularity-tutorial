@@ -16,7 +16,7 @@ You have two options to get Singularity installed on your machine.
 
 Download the contents of the repo:
 ```
-$ git clone https://github.com/maheshbabuadapa/Singularity-Tutorial.git
+$ git clone https://github.com/DataSystemsGroupUT/singularity-tutorial.git
 $ cd Singularity-Tutorial
 $ docker run --name singularity -v $(pwd)/material:/material -w /material -it --privileged snakemake/snakemake
 ```
@@ -41,7 +41,7 @@ singularity version 3.7.1
 Now clone the repository locally. If you have `git`, then just execute:
 
 ```
-$ git clone https://github.com/maheshbabuadapa/Singularity-Tutorial.git
+$ git clone https://github.com/DataSystemsGroupUT/singularity-tutorial.git
 $ cd Singularity-Tutorial
 ```
 
