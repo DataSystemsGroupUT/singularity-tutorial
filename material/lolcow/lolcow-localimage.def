@@ -1,0 +1,17 @@
+BootStrap: localimage
+From: /material/ubuntu/ubuntu.sif
+
+%runscript
+    echo "This was built with localimage"
+    fortune | cowsay | lolcat
+
+%files
+    install-dependencies.sh install-dependencies.sh
+
+%post
+    echo "Hello from inside the container"
+    sh -x install-dependencies.sh
+
+%environment
+    export PATH=/usr/games:$PATH
+    export LC_ALL=C
