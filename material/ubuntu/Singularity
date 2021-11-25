@@ -13,4 +13,3 @@ MirrorURL: http://us.archive.ubuntu.com/ubuntu/
     apt-get update
     apt-get -y install vim
     apt-get clean
-
