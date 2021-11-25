@@ -275,7 +275,7 @@ Worth to mention that, for convenience, Singularity
 * `/proc`
 * others (depending on the version of Singularity)
 
-## Part IV. Advanced usage of Singularity
+## Part IV. Advanced Usage of Singularity
 
 For this part it is necessary to get access to an HPC cluster or set it up locally.
 
@@ -333,7 +333,7 @@ $ singularity run --nv docker://pytorch/pytorch:1.6.0-cuda10.1-cudnn7-runtime
 
 - We have learned the necessary commands of Singularity to start producing containers that can run in HPC environments.
 - Singularity enables isolation, reproducibility and security in HPC environments.
-- It's use is mostly targeted to scientific applications with intensive performance requirements.
+- Its use is mostly targeted to scientific applications with intensive performance requirements.
 
 ## References
 
