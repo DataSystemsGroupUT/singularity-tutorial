@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: tensorflow/tensorflow:1.15.5
+From: tensorflow/tensorflow:2.12.0
 
 %post
     pip install matplotlib

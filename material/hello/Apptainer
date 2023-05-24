@@ -1,10 +1,10 @@
 BootStrap: debootstrap
 OSVersion: trusty
-MirrorURL: http://us.archive.ubuntu.com/ubuntu/
+MirrorURL: http://archive.ubuntu.com/ubuntu/
 
 
 %runscript
-    echo "Hello World from a Singularity container"
+    echo "Hello World from an Apptainer container"
 
 
 %post
