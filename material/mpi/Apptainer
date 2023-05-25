@@ -1,5 +1,5 @@
 Bootstrap: library
-From: ubuntu:18.04
+From: ubuntu:jammy
 
 %files
     mpitest.c /opt
@@ -13,7 +13,7 @@ From: ubuntu:18.04
 
 %post
     echo "Installing required packages..."
-    apt-get update && apt-get install -y wget git bash gcc gfortran g++ make file
+    apt-get update && apt-get install -y wget git bash gcc gfortran g++ make file bzip2
 
     echo "Installing Open MPI"
     export OMPI_DIR=/opt/ompi

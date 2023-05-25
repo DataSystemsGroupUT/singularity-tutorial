@@ -1,6 +1,6 @@
 BootStrap: debootstrap
-OSVersion: trusty
-MirrorURL: http://us.archive.ubuntu.com/ubuntu/
+OSVersion: jammy
+MirrorURL: http://archive.ubuntu.com/ubuntu/
 
 
 %runscript

@@ -1,5 +1,5 @@
 BootStrap: library
-From: ubuntu:18.04
+From: ubuntu:jammy
 
 %runscript
     echo "This was built with library"
